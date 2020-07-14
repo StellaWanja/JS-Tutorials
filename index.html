@@ -27,7 +27,44 @@
         </div>
     </div>
 
+    <div class="container-2">
+        <h2>Challenge: Fruit Generator</h2>
+        <button class="btn btn-success" id="gen_btn" onclick="genFruit()">Generate</button>
+        <div class="flex-box-container-2" id="flex-gen-fruit">
+        </div>
+    </div>
+
+    <div class="container-3">
+        <h2>Challenge: Rock, Paper, Scissors</h2>
+
+        <div class="score-board">
+            <div class="badge" id="user-label">user</div>
+            <div class="badge" id="comp-label">comp</div>
+            <span id="user-score">0</span>:<span id="comp-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Rock! Paper! Scissors!</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="images/rock.png" alt="" width="100px" height="100px">
+            </div>
+            <div class="choice" id="paper">
+                <img src="images/paper.png" alt="" width="100px" height="100px">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="images/scissors.png" alt="" width="100px" height="100px">
+            </div>
+        </div>
+
+        <p id="action-msg">Make your move!</p>
+    </div>
+
+
     <script src="js/script.js"></script>
+
 
 <!--    bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
